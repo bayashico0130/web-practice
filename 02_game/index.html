@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>[Sample]○×ゲーム</title>
+    <link href="style/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="game-container">
+        <a href="https://www.hypertextcandy.com/tic-tac-toe-1" target="_blank">参考: URL</a>
+        <div class="message-container">
+          <ul class="message-list">
+            <li id="maru-turn" class="js-hidden">
+              <span class="maru">○</span>の番
+            </li>
+            <li id="batsu-turn">
+              <span class="batsu">×</span>の番
+            </li>
+            <li id="maru-win" class="js-hidden">
+              <span class="maru">○</span>の勝ち！
+            </li>
+            <li id="batsu-win" class="js-hidden">
+              <span class="batsu">×</span>の勝ち！
+            </li>
+            <li id="draw" class="js-hidden">
+              引き分け
+            </li>
+          </ul>
+        </div>
+
+        <div class="squares-container">
+          <div class="squares-box">
+            <!-- 1行め -->
+            <div id="1-1" class="square"></div>
+            <div id="1-2" class="square"></div>
+            <div id="1-3" class="square"></div>
+            <!-- 2行め -->
+            <div id="2-1" class="square"></div>
+            <div id="2-2" class="square"></div>
+            <div id="2-3" class="square"></div>
+            <!-- 3行め -->
+            <div id="3-1" class="square"></div>
+            <div id="3-2" class="square"></div>
+            <div id="3-3" class="square"></div>
+          </div>
+        </div>
+
+        <div class="btn-container">
+          <div class="js-hidden" id="reset-btn">
+            <span class="btn btn-reset">もう一回遊ぶ</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

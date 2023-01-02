@@ -17,10 +17,10 @@ span {
     background-color: lime;
 }
 
-.con-info {
+.org-box {
     background-color: #eeeeee;
     border: 5px solid skyblue;
-    padding: 2em;
+    padding: 1.5em;
 }
 
 a:link, a:visited {
